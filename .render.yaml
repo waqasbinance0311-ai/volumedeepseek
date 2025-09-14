@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: trading-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python final_bot.py
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8135935569:AAGuanbMk58ge6xez0T014a5FkOqv2RkfKA
+      - key: TELEGRAM_CHAT_ID
+        value: 8410854765
+      - key: BINANCE_API_KEY
+        fromSecret: GOUALe8V6LPbq75eC9Sv2IWreCmolBw5r0B5mWnHI5X5NGiIfDtEn6mXtbmCNCAu
+      - key: BINANCE_API_SECRET
+        fromSecret: WDnTUHasXwiW4JXRVY6UZMvfrOTIgyvSgVhRF2bFlCng5dnll2sCmnH7v1JmDAIH

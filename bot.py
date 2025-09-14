@@ -19,8 +19,8 @@ import logging
 # ============================
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '8135935569:AAGuanbMk58ge6xez0T014a5FkOqv2RkfKA')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID', '8410854765')
-BINANCE_API_KEY = os.getenv('BINANCE_API_KEY', '')
-BINANCE_API_SECRET = os.getenv('BINANCE_API_SECRET', '')
+BINANCE_API_KEY = os.getenv('BINANCE_API_KEY', 'GOUALe8V6LPbq75eC9Sv2IWreCmolBw5r0B5mWnHI5X5NGiIfDtEn6mXtbmCNCAu')
+BINANCE_API_SECRET = os.getenv('BINANCE_API_SECRET', 'WDnTUHasXwiW4JXRVY6UZMvfrOTIgyvSgVhRF2bFlCng5dnll2sCmnH7v1JmDAIH')
 
 # ============================
 # INITIALIZE
